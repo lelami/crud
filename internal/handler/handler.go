@@ -23,8 +23,14 @@ func ServerHandler(ctx *fasthttp.RequestCtx) {
 		return
 	}
 
+	// Публичные методы
+	if ctx.IsGet() {
+		GetHandler(ctx)
+	}
+
+	// Авторизация
 	token := ctx.Request.Header.Peek(fasthttp.HeaderAuthorization)
-	tokenIsValid, userId := authclient.ValidateToken(string(token))
+	tokenIsValid, userData := authclient.ValidateToken(string(token))
 
 	log.Println(string(token) == "", !tokenIsValid, string(token) == "" || !tokenIsValid)
 	if string(token) == "" || !tokenIsValid {
@@ -34,12 +40,10 @@ func ServerHandler(ctx *fasthttp.RequestCtx) {
 	}
 
 	switch {
-	case ctx.IsGet():
-		GetHandler(ctx)
 	case ctx.IsDelete():
-		DeleteHandler(ctx, userId)
+		DeleteHandler(ctx, userData)
 	case ctx.IsPost():
-		PostHandler(ctx, userId)
+		PostHandler(ctx, userData)
 	}
 
 }
@@ -71,12 +75,25 @@ func GetHandler(ctx *fasthttp.RequestCtx) {
 	ctx.SetStatusCode(fasthttp.StatusOK)
 }
 
-func DeleteHandler(ctx *fasthttp.RequestCtx, userId string) {
+func DeleteHandler(ctx *fasthttp.RequestCtx, userData authclient.UserData) {
 	id := ctx.QueryArgs().Peek("id")
 
 	if len(id) == 0 {
 		ctx.SetStatusCode(fasthttp.StatusBadRequest)
 		return
+	}
+
+	// userIsAdmin
+	userIsAdmin := false
+	if userData.Role == domain.OwnerRoleAdmin {
+		userIsAdmin = true
+	}
+
+	if !userIsAdmin {
+		if recipeOwnerId, err := owner.Get(string(id)); recipeOwnerId != userData.ID || err != nil {
+			ctx.SetStatusCode(fasthttp.StatusForbidden)
+			return
+		}
 	}
 
 	if err := recipe.Delete(string(id)); err != nil {
@@ -87,7 +104,7 @@ func DeleteHandler(ctx *fasthttp.RequestCtx, userId string) {
 	ctx.SetStatusCode(fasthttp.StatusOK)
 }
 
-func PostHandler(ctx *fasthttp.RequestCtx, userId string) {
+func PostHandler(ctx *fasthttp.RequestCtx, userData authclient.UserData) {
 	var rec domain.Recipe
 	var recOwner domain.RecipeOwner
 
@@ -97,7 +114,7 @@ func PostHandler(ctx *fasthttp.RequestCtx, userId string) {
 		return
 	}
 
-	rec.CreatedBy = userId
+	rec.CreatedBy = userData.ID
 
 	if err := recipe.AddOrUpd(&rec); err != nil {
 		ctx.SetStatusCode(fasthttp.StatusInternalServerError)
@@ -106,9 +123,9 @@ func PostHandler(ctx *fasthttp.RequestCtx, userId string) {
 
 	resp := IdResponse{ID: rec.ID}
 
-	recOwner.OwnerId = userId
+	recOwner.OwnerId = userData.ID
 
-	if err := owner.AddOrUpd(rec.ID, userId); err != nil {
+	if err := owner.AddOrUpd(rec.ID, userData.ID); err != nil {
 		ctx.SetStatusCode(fasthttp.StatusInternalServerError)
 		return
 	}

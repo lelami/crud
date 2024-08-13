@@ -1,3 +1,489 @@
+GET http://localhost:8080?id=89fac4ae-cf0e-4658-9a56-fc1fd377e2af
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T170604.401.txt
+
+###
+
+GET http://localhost:8080?id=89fac4ae-cf0e-4658-9a56-fc1fd377e2af
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T170558.401.txt
+
+###
+
+GET http://localhost:8080?id=89fac4ae-cf0e-4658-9a56-fc1fd377e2af
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T170555.200.txt
+
+###
+
+GET http://localhost:8080?id=89fac4ae-cf0e-4658-9a56-fc1fd377e2af
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T170546.200.txt
+
+###
+
+GET http://localhost:8080?id=89fac4ae-cf0e-4658-9a56-fc1fd377e2af
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://localhost:8080?id=89fac4ae-cf0e-4658-9a56-fc1fd377e2af
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=89fac4ae-cf0e-4658-9a56-fc1fd377e2af
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T170226.200.txt
+
+###
+
+POST http://localhost:8080
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+Content-Length: 168
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Pasta",
+  "ingredients": [
+    { "amount": 200, "type": "grams of pasta22" },
+    { "amount": 50, "type": "grams of cheese33" }
+  ],
+  "temperature": 100
+}
+
+<> 2024-08-13T170215.200.txt
+
+###
+
+GET http://localhost:8080?id=59c1b672-9638-4fa9-944a-fb21d4c46235
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://localhost:8080?id=59c1b672-9638-4fa9-944a-fb21d4c46235
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://localhost:8080?id=59c1b672-9638-4fa9-944a-fb21d4c46235
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=59c1b672-9638-4fa9-944a-fb21d4c46235
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T165808.200.txt
+
+###
+
+GET http://localhost:8080?id=59c1b672-9638-4fa9-944a-fb21d4c46235
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T165739.200.txt
+
+###
+
+POST http://localhost:8080
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+Content-Length: 168
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Pasta",
+  "ingredients": [
+    { "amount": 200, "type": "grams of pasta22" },
+    { "amount": 50, "type": "grams of cheese33" }
+  ],
+  "temperature": 100
+}
+
+<> 2024-08-13T165731.200.txt
+
+###
+
+GET http://localhost:8080?id=ddcb2b0b-fd85-446a-8959-fb647960004b
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://localhost:8080?id=ddcb2b0b-fd85-446a-8959-fb647960004b
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=ddcb2b0b-fd85-446a-8959-fb647960004b
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T165658.200.txt
+
+###
+
+GET http://localhost:8080?id=ddcb2b0b-fd85-446a-8959-fb647960004b
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T164316.200.txt
+
+###
+
+DELETE http://localhost:8080?id=ddcb2b0b-fd85-446a-8959-fb647960004b
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=ddcb2b0b-fd85-446a-8959-fb647960004b
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T164238.200.txt
+
+###
+
+DELETE http://localhost:8080?id=ddcb2b0b-fd85-446a-8959-fb647960004b
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=ddcb2b0b-fd85-446a-8959-fb647960004b
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T164017.200.txt
+
+###
+
+POST http://localhost:8080
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+Content-Length: 168
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Pasta",
+  "ingredients": [
+    { "amount": 200, "type": "grams of pasta22" },
+    { "amount": 50, "type": "grams of cheese33" }
+  ],
+  "temperature": 100
+}
+
+<> 2024-08-13T164004.200.txt
+
+###
+
+DELETE http://localhost:8080?id=1800f834-d5af-48ff-8a23-a4f0f922eeb6
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=1800f834-d5af-48ff-8a23-a4f0f922eeb6
+Content-Type: application/json
+Authorization: 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T161729.200.txt
+
+###
+
+GET http://localhost:8080?id=1800f834-d5af-48ff-8a23-a4f0f922eeb6
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T161703.200.txt
+
+###
+
+POST http://localhost:8080
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+Content-Length: 168
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Pasta",
+  "ingredients": [
+    { "amount": 200, "type": "grams of pasta22" },
+    { "amount": 50, "type": "grams of cheese33" }
+  ],
+  "temperature": 100
+}
+
+<> 2024-08-13T161700.200.txt
+
+###
+
+GET http://localhost:8080?id=2326d2ae-b276-4c7e-9597-f62c88f9798a
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://localhost:8080?id=2326d2ae-b276-4c7e-9597-f62c88f9798a
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=2326d2ae-b276-4c7e-9597-f62c88f9798a
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T161654.200.txt
+
+###
+
+GET http://localhost:8080?id=2326d2ae-b276-4c7e-9597-f62c88f9798a
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T161652.200.txt
+
+###
+
+POST http://localhost:8080
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+Content-Length: 168
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Pasta",
+  "ingredients": [
+    { "amount": 200, "type": "grams of pasta22" },
+    { "amount": 50, "type": "grams of cheese33" }
+  ],
+  "temperature": 100
+}
+
+<> 2024-08-13T161650.200.txt
+
+###
+
+GET http://localhost:8080?id=9443dd87-bc31-4dc9-93c7-9cb989a412fb
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=9443dd87-bc31-4dc9-93c7-9cb989a412fb
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=9443dd87-bc31-4dc9-93c7-9cb989a412fb
+Content-Type: application/json
+Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://localhost:8080?id=9443dd87-bc31-4dc9-93c7-9cb989a412fb
+Content-Type: application/json
+Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://localhost:8080?id=9443dd87-bc31-4dc9-93c7-9cb989a412fb
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=9443dd87-bc31-4dc9-93c7-9cb989a412fb
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T152142.200.txt
+
+###
+
+DELETE http://localhost:8080?id=9443dd87-bc31-4dc9-93c7-9cb989a412fb
+Content-Type: application/json
+Authorization: 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=9443dd87-bc31-4dc9-93c7-9cb989a412fb
+Content-Type: application/json
+Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T152041.200.txt
+
+###
+
 POST http://localhost:8080
 Content-Type: application/json
 Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
@@ -15,39 +501,7 @@ Accept: */*
   "temperature": 100
 }
 
-<> 2024-08-13T143817.200.txt
-
-###
-
-GET http://localhost:8080?id=9a7545f7-4b52-4fe5-a960-607d8f3ab1b5
-Content-Type: application/json
-Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-DELETE http://localhost:8080?id=9a7545f7-4b52-4fe5-a960-607d8f3ab1b5
-Content-Type: application/json
-Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-GET http://localhost:8080?id=9a7545f7-4b52-4fe5-a960-607d8f3ab1b5
-Content-Type: application/json
-Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T143811.200.txt
+<> 2024-08-13T152039.200.txt
 
 ###
 
@@ -68,13 +522,23 @@ Accept: */*
   "temperature": 100
 }
 
-<> 2024-08-13T143808.200.txt
+<> 2024-08-13T152038.200.txt
+
+###
+
+GET http://localhost:8080?id=88eeb602-748e-40fd-bc23-acfe24787a2d
+Content-Type: application/json
+Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
 
 ###
 
 POST http://localhost:8080
 Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
+Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
 Content-Length: 168
 User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -89,11 +553,13 @@ Accept: */*
   "temperature": 100
 }
 
+<> 2024-08-13T152015.200.txt
+
 ###
 
-GET http://localhost:8080?id={{recipe_id}}
+DELETE http://localhost:8080?id=b1df7bd3-f6fc-482d-9b63-c502213c4b60
 Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
+Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
 User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
@@ -101,9 +567,55 @@ content-length: 0
 
 ###
 
+DELETE http://localhost:8080?id=b1df7bd3-f6fc-482d-9b63-c502213c4b60
+Content-Type: application/json
+Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080?id=b1df7bd3-f6fc-482d-9b63-c502213c4b60
+Content-Type: application/json
+Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T150522.200.txt
+
+###
+
+GET http://localhost:8080?id=b1df7bd3-f6fc-482d-9b63-c502213c4b60
+Content-Type: application/json
+Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T150039.200.txt
+
+###
+
+GET http://localhost:8080?id=b1df7bd3-f6fc-482d-9b63-c502213c4b60
+Content-Type: application/json
+Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
+User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-13T145745.200.txt
+
+###
+
 POST http://localhost:8080
 Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
+Authorization: 28fb9be0945da33287f58429ec9c55a1d56b699830e77ba53855679cb1d252da
 Content-Length: 168
 User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -118,635 +630,7 @@ Accept: */*
   "temperature": 100
 }
 
-###
-
-GET http://localhost:8080?id=891a21df-679b-4464-9b78-b6ba2e7eea78
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-DELETE http://localhost:8080?id=891a21df-679b-4464-9b78-b6ba2e7eea78
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-GET http://localhost:8080?id=891a21df-679b-4464-9b78-b6ba2e7eea78
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T141735.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T141733.200.txt
-
-###
-
-GET http://localhost:8080?id=168e214d-90c3-4677-bb04-f1fb2f8b0f48
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-DELETE http://localhost:8080?id=168e214d-90c3-4677-bb04-f1fb2f8b0f48
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T141716.200.txt
-
-###
-
-GET http://localhost:8080?id=83c041b8-0898-42d9-b11a-8ac2b34f37fb
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-DELETE http://localhost:8080?id=83c041b8-0898-42d9-b11a-8ac2b34f37fb
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-DELETE http://localhost:8080?id=83c041b8-0898-42d9-b11a-8ac2b34f37fb
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-DELETE http://localhost:8080?id=83c041b8-0898-42d9-b11a-8ac2b34f37fb
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-DELETE http://localhost:8080?id=83c041b8-0898-42d9-b11a-8ac2b34f37fb
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T141626.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T141625.200.txt
-
-###
-
-GET http://localhost:8080?id=8358a31e-c974-4d8b-93f5-2055df6cd131
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T141621.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T141619.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T141616.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T141231.200.txt
-
-###
-
-GET http://localhost:8080?id=f6857624-6ffe-4457-a1dc-30317d6a301d
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T141229-1.200.txt
-
-###
-
-GET http://localhost:8080?id=f6857624-6ffe-4457-a1dc-30317d6a301d
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T141229.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T141226.200.txt
-
-###
-
-GET http://localhost:8080?id=0bd9104a-4959-41d2-b43b-42e66426e12f
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T134433.200.txt
-
-###
-
-GET http://localhost:8080?id=0bd9104a-4959-41d2-b43b-42e66426e12f
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T134430.200.txt
-
-###
-
-GET http://localhost:8080?id=0bd9104a-4959-41d2-b43b-42e66426e12f
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T134429.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T134427.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T132332.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T132331.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T132330.200.txt
-
-###
-
-GET http://localhost:8080?id=de600dbf-81b1-46e6-9851-2ae7f90cac95
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T131628.200.txt
-
-###
-
-GET http://localhost:8080?id=de600dbf-81b1-46e6-9851-2ae7f90cac95
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T131627.200.txt
-
-###
-
-GET http://localhost:8080?id=de600dbf-81b1-46e6-9851-2ae7f90cac95
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T131626.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T131621.200.txt
-
-###
-
-GET http://localhost:8080?id=366b8b2f-ea88-49bc-99a7-fa56d2633546
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T105050.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T105047.200.txt
-
-###
-
-GET http://localhost:8080?id=246a5a97-b1a5-4366-99ee-aa5e0219fbbe
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T105040.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T105039.200.txt
-
-###
-
-GET http://localhost:8080?id=7519f479-42c8-48ef-a5b4-b4e7afd4c0fe
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T105033.200.txt
-
-###
-
-GET http://localhost:8080?id=7519f479-42c8-48ef-a5b4-b4e7afd4c0fe
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T105024.200.txt
-
-###
-
-POST http://localhost:8080
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-Content-Length: 168
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "Pasta",
-  "ingredients": [
-    { "amount": 200, "type": "grams of pasta22" },
-    { "amount": 50, "type": "grams of cheese33" }
-  ],
-  "temperature": 100
-}
-
-<> 2024-08-13T105020.200.txt
-
-###
-
-GET http://localhost:8080?id=6f8b625f-40b9-4874-8d41-46a22500b928
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T103327.200.txt
-
-###
-
-GET http://localhost:8080?id=6f8b625f-40b9-4874-8d41-46a22500b928
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T103236.200.txt
-
-###
-
-GET http://localhost:8080?id=6f8b625f-40b9-4874-8d41-46a22500b928
-Content-Type: application/json
-Authorization: 88b54b678a3018eb5f462538ef20094ed56b699830e77ba53855679cb1d252da
-User-Agent: IntelliJ HTTP Client/GoLand 2024.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-08-13T102554.200.txt
+<> 2024-08-13T145743.200.txt
 
 ###
 

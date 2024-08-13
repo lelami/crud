@@ -1,4 +1,6 @@
-@auth_token =
+#@auth_token = 1a23fcd59c9fd475fab6ea37b898ae973b38c223cd0767c5e6f40a7fb86159b4
+# user:
+@auth_token = 5b80ba857d9913fb756afbd7b2aa2ec0d56b699830e77ba53855679cb1d252da
 
 
 ### Сохранение рецепта
@@ -22,6 +24,10 @@ Authorization: {{auth_token}}
 GET localhost:8080/?id={{recipe_id}}
 Content-Type: application/json
 Authorization: {{auth_token}}
+
+### Получение рецепта без авторизации
+GET localhost:8080/?id={{recipe_id}}
+Content-Type: application/json
 
 ### Удаление рецепта
 DELETE localhost:8080/?id={{recipe_id}}

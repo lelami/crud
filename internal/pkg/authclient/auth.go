@@ -16,11 +16,11 @@ func Init(host string) {
 }
 
 type Response struct {
-	Success bool `json:"success"`
-	Data    Data `json:"data"`
+	Success bool     `json:"success"`
+	Data    UserData `json:"data"`
 }
 
-type Data struct {
+type UserData struct {
 	ID    string `json:"id"`
 	Name  string `json:"name"`
 	Age   int    `json:"age"`
@@ -28,8 +28,7 @@ type Data struct {
 	Email string `json:"email"`
 }
 
-func ValidateToken(token string) (bool, string) {
-
+func ValidateToken(token string) (bool, UserData) {
 	req := fasthttp.AcquireRequest()
 	defer fasthttp.ReleaseRequest(req)
 	req.SetRequestURI("http://" + c.Addr + "/get_user_info")
@@ -41,19 +40,19 @@ func ValidateToken(token string) (bool, string) {
 	defer fasthttp.ReleaseResponse(resp)
 	err := c.Do(req, resp)
 	if err != nil {
-		return false, ""
+		return false, UserData{}
 	}
 	log.Println(resp)
 	if resp.StatusCode() != http.StatusOK {
-		return false, ""
+		return false, UserData{}
 	}
 
 	var userInfo Response
 	err = json.Unmarshal(resp.Body(), &userInfo)
 	if err != nil {
 		log.Println("Error unmarshalling response body:", err)
-		return false, ""
+		return false, UserData{}
 	}
 
-	return true, userInfo.Data.ID
+	return true, userInfo.Data
 }

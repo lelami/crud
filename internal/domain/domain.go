@@ -1,5 +1,7 @@
 package domain
 
+const OwnerRoleAdmin = "admin"
+
 type Ing struct {
 	Amount int    `json:"amount"`
 	Type   string `json:"type"`
