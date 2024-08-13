@@ -1,4 +1,4 @@
-package service
+package recipe
 
 import (
 	"crud/internal/domain"

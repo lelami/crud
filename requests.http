@@ -1,0 +1,29 @@
+@auth_token =
+
+
+### Сохранение рецепта
+POST localhost:8080/
+Content-Type: application/json
+Authorization: {{auth_token}}
+
+{
+  "name": "Pasta",
+  "ingredients": [
+    { "amount": 200, "type": "grams of pasta22" },
+    { "amount": 50, "type": "grams of cheese33" }
+  ],
+  "temperature": 100
+}
+
+> {% client.global.set("recipe_id", JSON.parse(response.body).id ); %}
+
+
+### Получение рецепта
+GET localhost:8080/?id={{recipe_id}}
+Content-Type: application/json
+Authorization: {{auth_token}}
+
+### Удаление рецепта
+DELETE localhost:8080/?id={{recipe_id}}
+Content-Type: application/json
+Authorization: {{auth_token}}
