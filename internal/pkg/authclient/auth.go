@@ -1,9 +1,10 @@
 package authclient
 
 import (
-	"github.com/valyala/fasthttp"
 	"log"
 	"net/http"
+
+	"github.com/valyala/fasthttp"
 )
 
 var c *fasthttp.HostClient

@@ -11,3 +11,11 @@ type Recipe struct {
 	Ingredients []Ing  `json:"ingredients"`
 	Temperature int    `json:"temperature"`
 }
+
+type ResponseRecipes struct {
+	Recipes []Recipe `json:"recipes"`
+}
+
+type CountRecipes struct {
+	Count int `json:"count" validate:"required"`
+}
