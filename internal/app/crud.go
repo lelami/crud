@@ -36,6 +36,12 @@ func Run() {
 			log.Fatal("ERROR server run ", err)
 		}
 	}()
+	go func() {
+		err := server.ServerDocs("localhost:8081")
+		if err != nil && !errors.Is(err, http.ErrServerClosed) {
+			log.Fatal("ERROR server run ", err)
+		}
+	}()
 
 	log.Println("INFO CRUD service is running")
 

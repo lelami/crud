@@ -1,0 +1,63 @@
+consumes:
+- application/json
+definitions:
+  domain.Ing:
+    properties:
+      amount:
+        type: integer
+      type:
+        type: string
+    type: object
+  domain.Recipe:
+    properties:
+      id:
+        type: string
+      ingredients:
+        items:
+          $ref: '#/definitions/domain.Ing'
+        type: array
+      name:
+        type: string
+      temperature:
+        type: integer
+    type: object
+host: localhost:8080
+info:
+  contact:
+    name: API Support
+  description: Сервис для чтения, записи и удаления рецептов
+  title: Сервис CRUD Recipes
+  version: 0.1.0
+paths:
+  /:
+    get:
+      parameters:
+      - description: Айди рецепта
+        in: query
+        name: id
+        required: true
+        type: string
+      - description: Токен пользователя
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/domain.Recipe'
+        "400":
+          description: Bad Request
+        "401":
+          description: Unauthorized
+        "404":
+          description: Not Found
+        "500":
+          description: Internal Server Error
+      summary: Чтение рецепта
+      tags:
+      - Recipes
+produces:
+- application/json
+swagger: "2.0"

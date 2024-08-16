@@ -41,6 +41,17 @@ func ServerHandler(ctx *fasthttp.RequestCtx) {
 
 }
 
+// GetHandler godoc
+// @Tags Recipes
+// @Summary Чтение рецепта
+// @Param id query string true "Айди рецепта"
+// @Param Authorization header string true "Токен пользователя"
+// @Success 200 {object} domain.Recipe
+// @failure 400
+// @failure 401
+// @failure 404
+// @failure 500
+// @Router  / [get]
 func GetHandler(ctx *fasthttp.RequestCtx) {
 	id := ctx.QueryArgs().Peek("id")
 	if len(id) == 0 {
