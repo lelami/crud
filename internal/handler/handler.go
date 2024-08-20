@@ -5,8 +5,11 @@ import (
 	"crud/internal/pkg/authclient"
 	"crud/internal/service"
 	"encoding/json"
-	"github.com/valyala/fasthttp"
 	"log"
+	"strconv"
+	"strings"
+
+	"github.com/valyala/fasthttp"
 )
 
 func ServerHandler(ctx *fasthttp.RequestCtx) {
@@ -53,6 +56,84 @@ func ServerHandler(ctx *fasthttp.RequestCtx) {
 // @failure 500
 // @Router  / [get]
 func GetHandler(ctx *fasthttp.RequestCtx) {
+	isEntry := func(entryPoint string) bool {
+		return strings.Contains(string(ctx.Path()), entryPoint)
+	}
+	log.Printf("request path:%s\n", ctx.Path())
+	switch {
+	case isEntry("/count-recipes"):
+		getCountRecipes(ctx)
+	case isEntry("/recipes"):
+		getRecipes(ctx)
+	default:
+		getRecipeByID(ctx)
+	}
+}
+func getRecipes(ctx *fasthttp.RequestCtx) {
+	indBytes := ctx.QueryArgs().Peek("page")
+	if len(indBytes) == 0 {
+		ctx.SetStatusCode(fasthttp.StatusBadRequest)
+		log.Printf("len(indBytes) == 0")
+		return
+	}
+	index, err := strconv.Atoi(string(indBytes))
+	if err != nil {
+		ctx.SetStatusCode(fasthttp.StatusBadRequest)
+		log.Printf(" strconv.Atoi(string(indBytes))")
+		return
+	}
+	sizBytes := ctx.QueryArgs().Peek("size")
+	if len(sizBytes) == 0 {
+		ctx.SetStatusCode(fasthttp.StatusBadRequest)
+		log.Printf("len(sizBytes) == 0")
+		return
+	}
+
+	size, err := strconv.Atoi(string(sizBytes))
+	if err != nil {
+		ctx.SetStatusCode(fasthttp.StatusBadRequest)
+		log.Printf(" strconv.Atoi(string(sizBytes))")
+		return
+	}
+
+	rec, err := service.GetRecipes(index, size)
+	if err != nil {
+		ctx.SetStatusCode(fasthttp.StatusNotFound)
+		log.Printf("service.GetRecipes(%d, %d):%s", index, size, err)
+		return
+	}
+	log.Printf("recipes:%#v", rec)
+	marshal, err := json.Marshal(rec)
+	if err != nil {
+		ctx.SetStatusCode(fasthttp.StatusInternalServerError)
+		return
+	}
+
+	if _, err = ctx.Write(marshal); err != nil {
+		ctx.SetStatusCode(fasthttp.StatusInternalServerError)
+		return
+	}
+
+	ctx.SetStatusCode(fasthttp.StatusOK)
+}
+func getCountRecipes(ctx *fasthttp.RequestCtx) {
+
+	rec := service.Count()
+	marshal, err := json.Marshal(rec)
+	if err != nil {
+		ctx.SetStatusCode(fasthttp.StatusInternalServerError)
+		return
+	}
+
+	if _, err = ctx.Write(marshal); err != nil {
+		ctx.SetStatusCode(fasthttp.StatusInternalServerError)
+		return
+	}
+	log.Printf("count:%d", rec.Count)
+	ctx.SetStatusCode(fasthttp.StatusOK)
+
+}
+func getRecipeByID(ctx *fasthttp.RequestCtx) {
 	id := ctx.QueryArgs().Peek("id")
 	if len(id) == 0 {
 		ctx.SetStatusCode(fasthttp.StatusBadRequest)
