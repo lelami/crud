@@ -6,7 +6,8 @@ import (
 	"crud/internal/pkg/authclient"
 	"crud/internal/pkg/server"
 	"crud/internal/repository/cache"
-	"crud/internal/service"
+	"crud/internal/service/owner"
+	"crud/internal/service/recipe"
 	"errors"
 	"log"
 	"net/http"
@@ -20,7 +21,8 @@ func Run() {
 	var wg sync.WaitGroup
 
 	// initialize dbs
-	DB, err := cache.RecipeCacheInit(ctx, &wg)
+	DBRecipe, err := cache.RecipeCacheInit(ctx, &wg)
+	DBRecipeOwner, err := cache.RecipeOwnerCacheInit(ctx, &wg)
 	if err != nil {
 		log.Fatalf("ERROR failed to initialize user database: %v", err)
 	}
@@ -28,7 +30,8 @@ func Run() {
 	authclient.Init("localhost:8000")
 
 	// initialize service
-	service.Init(DB)
+	recipe.Init(DBRecipe)
+	owner.Init(DBRecipeOwner)
 
 	go func() {
 		err := server.Run("localhost:8080", handler.ServerHandler)
