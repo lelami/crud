@@ -5,7 +5,7 @@ import (
 )
 
 type DB interface {
-	Get(id string) (*domain.Recipe, error)
-	Set(id string, recipe *domain.Recipe) error
-	Delete(id string) error
+	GetRecipe(id string) (*domain.Recipe, error)
+	SetRecipe(id string, recipe *domain.Recipe) error
+	DeleteRecipe(id string) error
 }

@@ -13,11 +13,11 @@ func Init(DB recipedb.DB) {
 }
 
 func Get(id string) (*domain.Recipe, error) {
-	return recipes.Get(id)
+	return recipes.GetRecipe(id)
 }
 
 func Delete(id string) error {
-	return recipes.Delete(id)
+	return recipes.DeleteRecipe(id)
 }
 
 func AddOrUpd(r *domain.Recipe) error {
@@ -26,5 +26,5 @@ func AddOrUpd(r *domain.Recipe) error {
 		r.ID = uuid.New().String()
 	}
 
-	return recipes.Set(r.ID, r)
+	return recipes.SetRecipe(r.ID, r)
 }

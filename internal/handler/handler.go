@@ -26,7 +26,7 @@ func ServerHandler(ctx *fasthttp.RequestCtx) {
 	log.Println(string(token) == "", !authclient.ValidateToken(string(token)), string(token) == "" || !authclient.ValidateToken(string(token)))
 	if string(token) == "" || !authclient.ValidateToken(string(token)) {
 		ctx.SetStatusCode(fasthttp.StatusUnauthorized)
-		log.Println("Get request", string(ctx.Method()), string(token), "error", fasthttp.StatusUnauthorized)
+		log.Println("GetRecipe request", string(ctx.Method()), string(token), "error", fasthttp.StatusUnauthorized)
 		return
 	}
 

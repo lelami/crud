@@ -32,7 +32,7 @@ func RecipeCacheInit(ctx context.Context, wg *sync.WaitGroup) (*RecipeCache, err
 	return &c, nil
 }
 
-func (c *RecipeCache) Get(id string) (*domain.Recipe, error) {
+func (c *RecipeCache) GetRecipe(id string) (*domain.Recipe, error) {
 	c.mtx.RLock()
 	defer c.mtx.RUnlock()
 	if val, ok := c.pool[id]; ok {
@@ -41,7 +41,7 @@ func (c *RecipeCache) Get(id string) (*domain.Recipe, error) {
 	return nil, errors.New("recipe not found")
 }
 
-func (c *RecipeCache) Set(id string, recipe *domain.Recipe) error {
+func (c *RecipeCache) SetRecipe(id string, recipe *domain.Recipe) error {
 
 	c.mtx.Lock()
 	c.pool[id] = recipe
@@ -49,7 +49,7 @@ func (c *RecipeCache) Set(id string, recipe *domain.Recipe) error {
 
 	return nil
 }
-func (c *RecipeCache) Delete(id string) error {
+func (c *RecipeCache) DeleteRecipe(id string) error {
 
 	c.mtx.Lock()
 	delete(c.pool, id)
